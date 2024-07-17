@@ -76,6 +76,7 @@ a{
 }
 a:hover{
      color: black;
+     font-weight: 600;
 }
 .p1{
     font-family: "Playwrite PE", cursive;
@@ -145,7 +146,7 @@ a:hover{
     height: 100%;
     width: 250px;
     background-color: #ffffff7a;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(6px);
     box-shadow: -10px 0px 10px black;
     z-index: 99;
     font-family: "Playwrite PE", cursive;
