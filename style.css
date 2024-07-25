@@ -185,11 +185,23 @@ nav ul{
     .sign{
         display: none;
     }
-    
+    input[type="text"]{
+        width: 300px;
+    }
+    textarea{
+        width: 300px;
+    }
+   
 }
-@media(max-width:400px){
+@media(max-width:500px){
     .sidebar{
         width: 100%;
+    }
+    input[type="text"]{
+        width: 300px;
+    }
+    textarea{
+        width: 300px;
     }
 }
 #c1{
@@ -225,7 +237,7 @@ label{
     font-style: normal;
 }
 input{
-   width: 15%;
+   width: 20%;
     border-radius: 10px;
     font-size: 1.2em;
     line-height: 30px;
@@ -236,7 +248,7 @@ label:after {
     color: red;
 }
 textarea{
-   width: 15%; height: 200px;
+   min-width:20%; height: 200px;
     border-radius: 10px;
 }
 #but2{
@@ -267,4 +279,7 @@ textarea{
 }
 span{
     color: red;
+}
+.empt{
+    height: 50px; width:100%;
 }
