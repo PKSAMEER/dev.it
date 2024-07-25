@@ -94,8 +94,8 @@ a:hover{
     font-style: normal;
     font-size: 30px;
     text-align: center;
-    
 }
+
 .selected{
     font-weight: 600;
     color: black;
@@ -191,4 +191,80 @@ nav ul{
     .sidebar{
         width: 100%;
     }
+}
+#c1{
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center; 
+}
+#c2{
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center; 
+    line-height: 5px;
+}
+#c3{
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    line-height: 5px; 
+}
+label{
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+input{
+   width: 15%;
+    border-radius: 10px;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+input:focus
+label:after {
+    content: " *";
+    color: red;
+}
+textarea{
+   width: 15%; height: 200px;
+    border-radius: 10px;
+}
+#but2{
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: transparent;
+    color: black;
+    border-radius:50px;
+    transition:0.5s;
+}
+#but2:hover{
+    background-color: black;
+    color: white;
+}
+#but3{
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: transparent;
+    color: black;
+    border-radius:50px;
+    transition:0.5s;
+}
+span{
+    color: red;
 }

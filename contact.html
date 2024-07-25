@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+   <p id="c1">Contact Us</p> 
+    <p id="c2">Please fill following form in </p>
+    <p id="c3"> a decent manner.</p>
+    <center> 
+    <form>
+        <label class="mand" id="fname">First name</label><br>
+        <input type="text" id="name1" onkeyup="funone()"><br><span id="vld1"></span><br>
+
+        <label class="mand id="sname">Last name</label><br>
+        <input type="text" id="name2" onkeyup="funtwo()"><br><span id="vld2"></span><br>
+
+        <label class="mand id="phno">Phone no.</label><br>
+        <input type="text" id="phno1" onkeyup="funthree()"><br><span id="vld3"></span><br>
+
+        <label class="mand id="em">Email Id</label><br>
+        <input type="text" id="em1" ><br><span id="vld4"></span><br>
+
+        <label class="mand id="msg">Message</label><br>
+        <textarea id="msg1" onkeyup="funfive()" placeholder="write your query or reason to contact us"></textarea><br><span id="vld5"></span><br><br>
+        <button id="but2" value="submit" onmouseover="subm()">Submit</button><br><br><br>
+    </form>
+    <button id="but3" value="submit"><a class="hm" href="index.html">To home page</a></button>
+    </center>
+    <script src="index.js"></script>
+</body>
+</html>
